@@ -9,8 +9,8 @@
             "downloads": {
                 "generic": "https://github.com/AlexD07u/classy-war/releases/tag/v1.0/"
             }
-	}
 		}
+	}
 		
 		{
         "id": "v1.1",
@@ -18,8 +18,8 @@
         "promotions": {
             "downloads": {
                 "generic": "https://github.com/AlexD07u/classy-war/releases/tag/v1.1/"
-            }
-        }
-    }
+						 }
+						}
+		}
   ]
 }
