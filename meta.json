@@ -2,24 +2,25 @@
   "schemaVersion": 1,
   "hotfixesFormat": null,
   "versions": [
-		{
+	{
         "id": "1.0",
         "releasedAt": 1723549243,
         "promotions": {
             "downloads": {
                 "generic": "https://github.com/AlexD07u/classy-war/releases/tag/v1.0/"
             }
-		}
-	},
-		
-		{
+        }
+    },
+	
+	{
         "id": "1.1",
         "releasedAt": 1723553306,
         "promotions": {
             "downloads": {
                 "generic": "https://github.com/AlexD07u/classy-war/releases/tag/v1.1/"
-						 }
-						}
-		}
+            }
+        }
+    }	
+	
   ]
 }
