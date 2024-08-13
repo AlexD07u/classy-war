@@ -1,0 +1,5 @@
+Version 1.1
+
+Bug Fixes:
+Fixed Random Button on Menu
+Updated Configs
