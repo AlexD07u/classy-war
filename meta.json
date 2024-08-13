@@ -1,15 +1,15 @@
 {
-	"schemaVersion": 1,
-    "hotfixesFormat": null,
-    "versions": [
-        {
-            "id": "1.0",
-            "releasedAt": 1723549243,
-            "promotions": {
-                "downloads": {
-                    "generic": "https://example.com/"
-                }
-            }
+  "schemaVersion": 1,
+  "hotfixesFormat": null,
+  "versions": [
+    {
+      "id": "1.0",
+      "releasedAt": 1723549243,
+      "promotions": {
+        "downloads": {
+          "generic": "https://example.com/"
         }
-    ]
+      }
+    }
+  ]
 }
