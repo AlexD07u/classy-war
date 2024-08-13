@@ -1,16 +1,15 @@
-content = content.replaceAll("\\s","")
 {
-  "schemaVersion": 1,
-  "requiresMpuc": 14,
-  "hotfixesFormat": null,
-  "versions": [
-    {
-      "id": "1.0",
-      "releasedAt": 1723549243
-    },
-    {
-      "id": "1.1",
-      "releasedAt": 1723553306
-    }
-  ]
+"schemaVersion": 1,
+"requiresMpuc": 14,
+"hotfixesFormat": null,
+"versions": [
+{
+"id": "1.0",
+"releasedAt": 1723549243
+},
+{
+"id": "1.1",
+"releasedAt": 1723553306
+}
+]
 }
