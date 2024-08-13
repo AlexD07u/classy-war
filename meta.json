@@ -1,3 +1,4 @@
+content = content.replaceAll("\\s","")
 {
   "schemaVersion": 1,
   "requiresMpuc": 14,
