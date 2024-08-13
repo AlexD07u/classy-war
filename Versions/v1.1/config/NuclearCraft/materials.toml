@@ -1,0 +1,38 @@
+
+#Settings for ore generation
+[ores]
+	#List of dimensions to generate ores: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
+	dimensions = [[0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848], [0, -4848]]
+	#Enable ore registration: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
+	register_ore = [true, true, true, true, true, true, true, true, true, true, true]
+	#Ore blocks per vein. Order: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
+	vein_size = [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]
+	#Veins in chunk. Order: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
+	veins_in_chunk = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+	#Minimal generation height. Order: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
+	min_height = [-60, -60, -60, 4, -60, -60, -60, -60, 4, -60, 4]
+	#Max generation height. Order: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
+	max_height = [60, 0, 60, 60, 60, 60, 60, 60, 60, 60, 60]
+
+#Settings for items registration
+[material_products]
+	#If no texture found it will generate random color
+	register_slurries = ["uranium", "iron", "gold", "aluminum", "thorium", "boron", "silver", "lead", "tin", "copper", "zinc", "cobalt", "platinum", "lithium", "magnesium"]
+	#Enable chunk registration: lithium, platinum, thorium, tin, magnesium, silver, cobalt, uranium, zinc, boron, lead
+	register_chunk = [true, true, true, true, true, true, true, true, true, true, true]
+	#Enable ingots registration: manganese_oxide, niobium_tin, graphite, lithium, platinum, tungsten, zircaloy, yttrium, thermoconducting, thorium, zirconium_molybdenum, tin, palladium, beryllium, silicon_carbide, zinc, carbon_manganese, extreme, shibuichi, tungsten_carbide, stainless_steel, magnesium, bronze, sodium, tin_silver, pyrolitic_carbon, manganese_dioxide, silver, uranium, niobium_titanium, tough_alloy, steel, potassium, ferroboron, titanium, super_alloy, cobalt, aluminum, manganese, sic_sic_cmc, hard_carbon, niobium, zirconium, electrum, chromium, calcium, strontium, osmium, lithium_manganese_dioxide, lead, osmiridium, lead_platinum, hsla_steel, nichrome, boron, magnesium_diboride, hafnium
+	register_ingot = [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+	#Enable plate registration: tough_alloy, steel, ferroboron, cobalt, aluminum, graphite, manganese, sic_sic_cmc, netherite, lithium, platinum, thermoconducting, thorium, hard_carbon, tin, palladium, copper, beryllium, zirconium, zinc, extreme, electrum, magnesium, lithium_manganese_dioxide, lead, bronze, iron, silver, hsla_steel, uranium, boron
+	register_plate = [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+	#Enable dust registration: barium, germanium, tungsten, zircaloy, yttrium, thermoconducting, thorium, zirconium_molybdenum, palladium, sulfur, fluorite, lapis, silicon_carbide, zinc, carbon_manganese, molybdenum, purpur, borax, magnesium, bronze, manganese_dioxide, silver, boron_nitride, gadolinium, tough_alloy, steel, ferroboron, cobalt, strontium_90, potassium_hydroxide, alugentum, aluminum, manganese, sic_sic_cmc, protactinium_233, gold, europium_155, hard_carbon, end_stone, niobium, yellowcake, copper, iodine, zirconium, electrum, caesium_137, strontium, rhodochrosite, lead, boron_arsenide, neodymium, lead_platinum, crystal_binder, charcoal, hafnium, sodium_hydroxide, manganese_oxide, samarium, erbium, radium, bscco, graphite, netherite, lithium, platinum, carobbiite, tin, beryllium, ruthenium_106, extreme, shibuichi, obsidian, polonium, arsenic, energetic_blend, sodium, tin_silver, pyrolitic_carbon, potassium_fluoride, coal, uranium, emerald, c_mn_blend, potassium, tbp, ytterbium, titanium, dimensional_blend, thallium, enderium, sodium_fluoride, irradiated_borax, terbium, calcium_sulfate, chromium, promethium_147, calcium, potassium_iodide, villiaumite, osmium, lithium_manganese_dioxide, quartz, diamond, iron, hsla_steel, boron, bismuth
+	register_dust = [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+	#Enable nuggets registration: steel, electrum, magnesium, cobalt, aluminum, lead, bronze, lithium, platinum, thorium, tin, beryllium, silver, uranium, zirconium, zinc, boron
+	register_nugget = [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]
+	#Enable gems registration: boron_arsenide, carobbiite, silicon, villiaumite, fluorite, rhodochrosite, boron_nitride
+	register_block = [true, true, true, true, true, true, true]
+
+#Forge Tag priority
+[forge_tag_priority]
+	#Priority of mods to resolve forge tags to itemstack.
+	mods_priority = ["nuclearcraft", "mekanism", "immersiveengineering", "tconstruct"]
+

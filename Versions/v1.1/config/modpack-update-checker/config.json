@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 9,
+  "currentVersion": "v1.1",
+  "modpackName": "Classy War",
+  "modpackAuthor": "The Classy Servers",
+  "modpackReleaseType": "stable",
+  "updateCheckerId": "https://github.com/AlexD07u/classy-war/tree/main",
+  "advanced": {
+    "bccEnabled": false,
+    "expandButton": false,
+    "updateCheckerType": 2,
+    "retroWarning": false,
+    "modpackMods": []
+  }
+}

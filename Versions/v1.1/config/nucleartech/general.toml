@@ -1,0 +1,26 @@
+
+#General Config. Synced from server to client.
+[general]
+	#Mobs get the full set bonus from armor
+	mobsFullSetBonus = true
+	#Hello peer!
+	enableBabyMode = false
+
+	#IV Bag Cooldown Settings. All values in ticks.
+	[general.iv_bags]
+		#Range: > 0
+		emptyIVBagCooldown = 20
+		#Range: > 0
+		bloodBagCooldown = 40
+		#Range: > 0
+		emptyExperienceBagCooldown = 0
+		#Range: > 0
+		experienceBagCooldown = 0
+		#Range: > 0
+		radAwayCooldown = 100
+
+	#528 Mode settings
+	[general.528]
+		#The central toggle for 528 mode
+		enable528Mode = false
+
