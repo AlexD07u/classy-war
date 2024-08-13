@@ -1,0 +1,9 @@
+
+#Config for world generation and world changes. Synced from server to client.
+[world]
+
+	#World modification settings
+	[world.modification]
+		#Whether Glowing Mycelium can assimilate other dirt-like blocks
+		enableGlowingMyceliumSpread = false
+

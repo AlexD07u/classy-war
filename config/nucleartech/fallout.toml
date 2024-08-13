@@ -1,0 +1,10 @@
+
+#Fallout Config. Synced from server to client.
+[fallout]
+	#Set fire to any flammable blocks
+	burnFlammables = true
+	#Remove any plants (more specifically those that implement IPlantable or IForgeShearable)
+	removePlants = true
+	#Makes the transformations start from the middle and spiral outwards. Almost entirely cosmetic, slight changes in performance depend on size of fallout
+	emulateSpiral = true
+
